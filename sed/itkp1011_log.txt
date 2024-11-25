@@ -1,0 +1,205 @@
+ Script started on Mon Aug 26 20:15:19 2024
+ bash-4.2$ 
+> bash-4.2$ 
+> bash-4.2$ cp itkp1011.txt ../odio/et/sit.txt
+ cp: cannot create regular file ../odio/et/sit.txt: No such file or directory
+ bash-4.2$ cp itkp1011.txt ../et/sit.txt
+ cp: cannot create regular file ../et/sit.txt: Permission denied
+ bash-4.2$ dir
+ dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+ bash-4.2$ cd odio
+ bash-4.2$ dir
+ in  lectus
+ bash-4.2$ mkdir et
+ bash-4.2$ dir
+ et  in	lectus
+ bash-4.2$ cp itkp1011.txt ../et/sit.txt
+ cp: cannot stat itkp1011.txt: No such file or directory
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+ bash-4.2$ cp itkp1011.txt ../et/sit.txt
+>           cp itkp1011.txt ../odio/et/sit.txt
+ cp: cannot create regular file ../odio/et/sit.txt: No such file or directory
+ bash-4.2$ cp itkp1011.txt ../odio/sit.txt
+ cp: cannot create regular file ../odio/sit.txt: No such file or directory
+ bash-4.2$ cp itkp1011.txt ../odio/
+ cp: cannot create regular file ../odio/: Not a directory
+ bash-4.2$ cp itkp1011.txt odio/
+ bash-4.2$ dir
+ dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+ bash-4.2$ cd odio
+ bash-4.2$ dir
+ et  in	itkp1011.txt  lectus
+ bash-4.2$ cp itkp1011.txt et/sit.txt
+ bash-4.2$ dir
+ et  in	itkp1011.txt  lectus
+ bash-4.2$ cd et
+ bash-4.2$ dir
+ sit.txt
+ bash-4.2$ tarkista
+ Tiedosto malesuada.txt ei ole oikeassa kansiossa.
+ Tiedosto tempor.txt ei ole oikeassa kansiossa.
+ massa.txt	kyttj : kirjoitusoikeus pit poistaa
+ massa.txt	muut : kirjoitusoikeus puuttuu
+ Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on vr sislt.
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Kansio dapibus puuttuu
+ Kansio mauris puuttuu
+ Komentorivitehtvsi on hyltty. Yrit uudelleen.
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ et  in	itkp1011.txt  lectus
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+ bash-4.2$ cd dui
+ bash-4.2$ di
+ bash: di: command not found
+ bash-4.2$ dir
+ vel
+ bash-4.2$ mkdir dapibus
+ bash-4.2$ mkdir mauris
+ bash-4.2$ dir
+ dapibus  mauris  vel
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+ bash-4.2$ cd odio
+ bash-4.2$ cd lectus
+ bash-4.2$ cp ../../malesuada.txt
+ cp: missing destination file operand after ../../malesuada.txt
+ Try 'cp --help' for more information.
+ bash-4.2$ cp ../../malesuada.txt .
+ cp: cannot stat ../../malesuada.txt: No such file or directory
+ bash-4.2$ cp ../malesuada.txt .
+ cp: cannot stat ../malesuada.txt: No such file or directory
+ bash-4.2$ cp ../malesuada.txt .
+>              malesuada.txt   
+ cp: missing destination file operand after malesuada.txt../
+ Try 'cp --help' for more information.
+ bash-4.2$ cp malesuada.txt ../
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ et  in	itkp1011.txt  lectus  malesuada.txt
+ bash-4.2$ cp malesuada.txt ../
+ bash-4.2$ dir
+ et  in	itkp1011.txt  lectus  malesuada.txt
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ dui  itkp1011.txt   odio      taso5.txt
+ ex   malesuada.txt  ohje.txt
+ bash-4.2$ cd dui
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ dui  itkp1011.txt   odio      taso5.txt
+ ex   malesuada.txt  ohje.txt
+ bash-4.2$ dir
+ dui  itkp1011.txt   odio      taso5.txt
+ ex   malesuada.txt  ohje.txt
+ bash-4.2$ cp malesuada.txt dui/
+ bash-4.2$ cd dui
+ bash-4.2$ dir
+ dapibus  malesuada.txt	mauris	vel
+ bash-4.2$ cp malesuada.txt mauris/
+ bash-4.2$ dir
+ dapibus  malesuada.txt	mauris	vel
+ bash-4.2$ cd mauris
+ bash-4.2$ dir
+ malesuada.txt
+ bash-4.2$ tarkista
+ Tiedosto tempor.txt ei ole oikeassa kansiossa.
+ massa.txt	kyttj : kirjoitusoikeus pit poistaa
+ massa.txt	muut : kirjoitusoikeus puuttuu
+ Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on vr sislt.
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Komentorivitehtvsi on hyltty. Yrit uudelleen.
+ bash-4.2$ dir
+ malesuada.txt
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ dapibus  malesuada.txt	mauris	vel
+ bash-4.2$ cd vel
+ bash-4.2$ dir
+ tempor.txt
+ bash-4.2$ cp tempor.txt ../
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ dapibus  malesuada.txt	mauris	tempor.txt  vel
+ bash-4.2$ cp tempor.txt ../
+ bash-4.2$ cd ..
+ bash-4.2$ dir
+ dui  itkp1011.txt   odio      taso5.txt
+ ex   malesuada.txt  ohje.txt  tempor.txt
+ bash-4.2$ cp tempor.txt odio/
+ bash-4.2$ dir
+ dui  itkp1011.txt   odio      taso5.txt
+ ex   malesuada.txt  ohje.txt  tempor.txt
+ bash-4.2$ tarkista
+ massa.txt	kyttj : kirjoitusoikeus pit poistaa
+ massa.txt	muut : kirjoitusoikeus puuttuu
+ Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on vr sislt.
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Komentorivitehtvsi on hyvksytty arvosanalla 1
+ Muista lopettaa valmis tehtv exit-komennolla! 
+ a04f697159c68d8ddf012602c84fecba6d58771956fa6954870d059ac006751d72a35834516e169c743e8304108b4b62731a90054d9cf1ff0605b9d23ef73f69
+ bash-4.2$ dir
+ dui  itkp1011.txt   odio      taso5.txt
+ ex   malesuada.txt  ohje.txt  tempor.txt
+ bash-4.2$ cd odio/in/
+ bash-4.2$ dir
+ massa.txt
+ bash-4.2$ chmod u+r massa.txt 
+ bash-4.2$ chmod u-w massa.txt 
+ bash-4.2$ chmod u-x massa.txt 
+ bash-4.2$ dir
+ massa.txt
+ bash-4.2$ chmod g+r massa.txt 
+ bash-4.2$ chmod g-w massa.txt 
+ bash-4.2$ chmod g-x massa.txt 
+ bash-4.2$ dir
+ massa.txt
+ bash-4.2$ chmod o+r massa.txt 
+ bash-4.2$ chmod o+w massa.txt 
+ bash-4.2$ chmod o-x massa.txt 
+ bash-4.2$ dir
+ massa.txt
+ bash-4.2$ tarkista
+ Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on vr sislt.
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Komentorivitehtvsi on hyvksytty arvosanalla 3
+ Muista lopettaa valmis tehtv exit-komennolla! 
+ 539e09ffacb8387d3636bbc95e6d0f2bf03540c20130b08170f2d814851edf9889ebfa12d087570067c248861616ae774c33a409b6d57f73c513f5b53d57e6be
+ bash-4.2$ exit
+ Lopetetaan tehtv. Odota hetki.
+ exit
+ /tmp/olieemka/
+  [drwxr-xr-x olieemka]  dui
+   [drwxr-xr-x olieemka]  dapibus
+   [-rw-r--r-- olieemka]  malesuada.txt
+   [drwxr-xr-x olieemka]  mauris
+    [-rw-r--r-- olieemka]  malesuada.txt
+   [-rw-r--r-- olieemka]  tempor.txt
+   [drwxr-xr-x olieemka]  vel
+       [-rw-r--r-- olieemka]  tempor.txt
+  [drwxr-xr-x olieemka]  ex
+  [-rw-r--r-- olieemka]  itkp1011.txt
+  [-rw-r--r-- olieemka]  malesuada.txt
+  [drwxr-xr-x olieemka]  odio
+   [drwxr-xr-x olieemka]  et
+    [-rw-r--r-- olieemka]  sit.txt
+   [drwxr-xr-x olieemka]  in
+    [-r--r--rw- olieemka]  massa.txt
+   [-rw-r--r-- olieemka]  itkp1011.txt
+   [drwxr-xr-x olieemka]  lectus
+    [-rw-r--r-- olieemka]  malesuada.txt
+   [-rw-r--r-- olieemka]  malesuada.txt
+   [-rw-r--r-- olieemka]  tempor.txt
+  [-rw-r--r-- olieemka]  ohje.txt
+  [-rw-r--r-- olieemka]  taso5.txt
+  [-rw-r--r-- olieemka]  tempor.txt
+ Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on vr sislt.
+ Taso 5 puuttuu kokonaan tai on toteutettu vrin
+ Komentorivitehtvsi on hyvksytty arvosanalla 3
+ Muista lopettaa valmis tehtv exit-komennolla! 
+ 539e09ffacb8387d3636bbc95e6d0f2bf03540c20130b08170f2d814851edf9889ebfa12d087570067c248861616ae774c33a409b6d57f73c513f5b53d57e6be

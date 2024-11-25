@@ -1,0 +1,204 @@
+Script started on Mon Aug 26 20:15:19 2024
+[?1034hbash-4.2$ [Kbash-4.2$ [Kbash-4.2$ cp itkp1011.txt ../odio/et/sit.txt
+cp: cannot create regular file ‘../odio/et/sit.txt’: No such file or directory
+bash-4.2$ cp itkp1011.txt ../odio/et/sit.txt[C[1P/et/sit.txt[1P/et/sit.txt[1P/et/sit.txt[1P/et/sit.txt[1Pet/sit.txt
+cp: cannot create regular file ‘../et/sit.txt’: Permission denied
+bash-4.2$ cd [K[K[Kdir
+dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+bash-4.2$ cd odio
+bash-4.2$ dir
+in  lectus
+bash-4.2$ mkdir et
+bash-4.2$ dir
+et  in	lectus
+bash-4.2$ dirmkdir et[5Pdircd odio[4Pdircp itkp1011.txt ../et/sit.txt[C[C[C[C[C[C[C[C
+cp: cannot stat ‘itkp1011.txt’: No such file or directory
+bash-4.2$ cd ..
+bash-4.2$ dir
+dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+bash-4.2$ cd [K[K[Kdircd ..p itkp1011.txt ../et/sit.txt[C[C[C[C[C[C[C[C[C[Cdir[Kmkdir et[5Pdircd odio[4Pdircd odio[4Pdirmkdir et[5Pdircp itkp1011.txt ../et/sit.txto/et/sit.txtd/et/sit.txti/et/sit.txto/et/sit.txt[C/odio/et/sit.txt
+cp: cannot create regular file ‘../odio/et/sit.txt’: No such file or directory
+bash-4.2$ cp itkp1011.txt ../odio/et/sit.txt[C[C[1Psit.txt[1Psit.txt[1Psit.txt
+cp: cannot create regular file ‘../odio/sit.txt’: No such file or directory
+bash-4.2$ cp itkp1011.txt ../odio/sit.txt[K[K[K[K[K[K[K
+cp: cannot create regular file ‘../odio/’: Not a directory
+bash-4.2$ cp itkp1011.txt ../odio/[C[C[C[C[1P/odio/[1P/odio/[C[1Podio/
+bash-4.2$ dir
+dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+bash-4.2$ cd odio
+bash-4.2$ dir
+et  in	itkp1011.txt  lectus
+bash-4.2$ cd [K[Kp itkp1011.txt et/sit.txt
+bash-4.2$ dir
+et  in	itkp1011.txt  lectus
+bash-4.2$ cd et
+bash-4.2$ dir
+sit.txt
+bash-4.2$ tarkisa[Kta
+Tiedosto malesuada.txt ei ole oikeassa kansiossa.
+Tiedosto tempor.txt ei ole oikeassa kansiossa.
+massa.txt	käyttäjä : kirjoitusoikeus pitää poistaa
+massa.txt	muut : kirjoitusoikeus puuttuu
+Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on väärä sisältö.
+Taso 5 puuttuu kokonaan tai on toteutettu väärin
+Kansio dapibus puuttuu
+Kansio mauris puuttuu
+Komentorivitehtäväsi on hylätty. Yritä uudelleen.
+bash-4.2$ ^[[2~^?[K[K[K[K[Kcd ..
+bash-4.2$ dir
+et  in	itkp1011.txt  lectus
+bash-4.2$ cd ..
+bash-4.2$ fi[K[Kd[Kdir
+dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+bash-4.2$ c [Kd dui
+bash-4.2$ di
+bash: di: command not found
+bash-4.2$ r[Kdir
+vel
+bash-4.2$ mkdir dapidus[1Pusbus
+bash-4.2$ mkdri [K[K[K[Kdir mauris
+bash-4.2$ cd[K[Kdir
+dapibus  mauris  vel
+bash-4.2$ cd ..
+bash-4.2$ dir
+dui  ex  itkp1011.txt  odio  ohje.txt  taso5.txt
+bash-4.2$ cd odio
+bash-4.2$ cd lectus
+bash-4.2$ cp ../../males[C[1Pmales[1Pmales[1Pmales[C[C[C[C[C[C.males.males/males[C[C[C[C[Cuada.txt
+cp: missing destination file operand after ‘../../malesuada.txt’
+Try 'cp --help' for more information.
+bash-4.2$ cp ../../malesuada.txt . [K
+cp: cannot stat ‘../../malesuada.txt’: No such file or directory
+bash-4.2$ cp ../../malesuada.txt .[C[C[C[C[1P[C[1P[C[1P
+cp: cannot stat ‘../malesuada.txt’: No such file or directory
+bash-4.2$ cp ../malesuada.txt .[C[C[C[C[C[C[C[C[C[C[C[C[C[1@t[1@o[1P[1P[1@m[1@a[1@l[1@e[9@suada.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+cp: missing destination file operand after ‘malesuada.txt../’
+Try 'cp --help' for more information.
+bash-4.2$ cp malesuada.txt../[C ../
+bash-4.2$ cd ..
+bash-4.2$ dir
+et  in	itkp1011.txt  lectus  malesuada.txt
+bash-4.2$ dircd ..p malesuada.txt ../
+bash-4.2$ cd [K[K[Kdir
+et  in	itkp1011.txt  lectus  malesuada.txt
+bash-4.2$ cd ..
+bash-4.2$ dir
+dui  itkp1011.txt   odio      taso5.txt
+ex   malesuada.txt  ohje.txt
+bash-4.2$ cd [K[K[Kcd dui
+bash-4.2$ cp male[K[K[K[K[K[K[Kd[Kcd ..[K[Kcd[K[K..
+bash-4.2$ dir
+dui  itkp1011.txt   odio      taso5.txt
+ex   malesuada.txt  ohje.txt
+bash-4.2$ dir
+dui  itkp1011.txt   odio      taso5.txt
+ex   malesuada.txt  ohje.txt
+bash-4.2$ cp malesuada.txt dui/
+bash-4.2$ cd dui
+bash-4.2$ dir
+dapibus  malesuada.txt	mauris	vel
+bash-4.2$ co[Kp malesuada.txt mauris/
+bash-4.2$ dir
+dapibus  malesuada.txt	mauris	vel
+bash-4.2$ cd mauri[Kis
+bash-4.2$ cd [K[K[Kdir
+malesuada.txt
+bash-4.2$ tarl[Kkista
+Tiedosto tempor.txt ei ole oikeassa kansiossa.
+massa.txt	käyttäjä : kirjoitusoikeus pitää poistaa
+massa.txt	muut : kirjoitusoikeus puuttuu
+Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on väärä sisältö.
+Taso 5 puuttuu kokonaan tai on toteutettu väärin
+Komentorivitehtäväsi on hylätty. Yritä uudelleen.
+bash-4.2$ cd [K[K[Kdir
+malesuada.txt
+bash-4.2$ cd ..
+bash-4.2$ dir
+dapibus  malesuada.txt	mauris	vel
+bash-4.2$ cd vel
+bash-4.2$ dir
+tempor.txt
+bash-4.2$ cp tempor.txt ../
+bash-4.2$ cd ..
+bash-4.2$ dir
+dapibus  malesuada.txt	mauris	tempor.txt  vel
+bash-4.2$ cp dircd ..p tempor.txt ../
+bash-4.2$ cd ..
+bash-4.2$ dir
+dui  itkp1011.txt   odio      taso5.txt
+ex   malesuada.txt  ohje.txt  tempor.txt
+bash-4.2$ cd [K[K[Kcp tempor.txt odio/
+bash-4.2$ dir
+dui  itkp1011.txt   odio      taso5.txt
+ex   malesuada.txt  ohje.txt  tempor.txt
+bash-4.2$ tarkista
+massa.txt	käyttäjä : kirjoitusoikeus pitää poistaa
+massa.txt	muut : kirjoitusoikeus puuttuu
+Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on väärä sisältö.
+Taso 5 puuttuu kokonaan tai on toteutettu väärin
+Komentorivitehtäväsi on hyväksytty arvosanalla 1
+Muista lopettaa valmis tehtävä exit-komennolla! 
+
+a04f697159c68d8ddf012602c84fecba6d58771956fa6954870d059ac006751d72a35834516e169c743e8304108b4b62731a90054d9cf1ff0605b9d23ef73f69
+bash-4.2$ dir
+dui  itkp1011.txt   odio      taso5.txt
+ex   malesuada.txt  ohje.txt  tempor.txt
+bash-4.2$ cd odio/in/
+bash-4.2$ dir
+massa.txt
+bash-4.2$ chmod u+r massa.txt 
+bash-4.2$ chmod u-w massa.txt 
+bash-4.2$ chmod u-w massa.txt [C[C[1P[1@x
+bash-4.2$ dir
+massa.txt
+bash-4.2$ dirchmod u-x massa.txt [1P[1@g[C[C[1P[1P[1@+[1@r
+bash-4.2$ chmod g+r massa.txt [C[C[1P[1@-[C[1P[1@w
+bash-4.2$ chmod g-w massa.txt [1P[1@x
+bash-4.2$ dir
+massa.txt
+bash-4.2$ dirchmod g-x massa.txt [C[1P[1@o[C[C[1P[1P[1@+[1@r
+bash-4.2$ chmod o+r massa.txt [C[1P[1@w
+bash-4.2$ chmod o+w massa.txt [C[C[1P[1@-[C[1P[1@x
+bash-4.2$ dir
+massa.txt
+bash-4.2$ tarkista
+Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on väärä sisältö.
+Taso 5 puuttuu kokonaan tai on toteutettu väärin
+Komentorivitehtäväsi on hyväksytty arvosanalla 3
+Muista lopettaa valmis tehtävä exit-komennolla! 
+
+539e09ffacb8387d3636bbc95e6d0f2bf03540c20130b08170f2d814851edf9889ebfa12d087570067c248861616ae774c33a409b6d57f73c513f5b53d57e6be
+bash-4.2$ exit
+Lopetetaan tehtävä. Odota hetki.
+exit
+/tmp/olieemka/
+├── [drwxr-xr-x olieemka]  dui
+│   ├── [drwxr-xr-x olieemka]  dapibus
+│   ├── [-rw-r--r-- olieemka]  malesuada.txt
+│   ├── [drwxr-xr-x olieemka]  mauris
+│   │   └── [-rw-r--r-- olieemka]  malesuada.txt
+│   ├── [-rw-r--r-- olieemka]  tempor.txt
+│   └── [drwxr-xr-x olieemka]  vel
+│       └── [-rw-r--r-- olieemka]  tempor.txt
+├── [drwxr-xr-x olieemka]  ex
+├── [-rw-r--r-- olieemka]  itkp1011.txt
+├── [-rw-r--r-- olieemka]  malesuada.txt
+├── [drwxr-xr-x olieemka]  odio
+│   ├── [drwxr-xr-x olieemka]  et
+│   │   └── [-rw-r--r-- olieemka]  sit.txt
+│   ├── [drwxr-xr-x olieemka]  in
+│   │   └── [-r--r--rw- olieemka]  massa.txt
+│   ├── [-rw-r--r-- olieemka]  itkp1011.txt
+│   ├── [drwxr-xr-x olieemka]  lectus
+│   │   └── [-rw-r--r-- olieemka]  malesuada.txt
+│   ├── [-rw-r--r-- olieemka]  malesuada.txt
+│   └── [-rw-r--r-- olieemka]  tempor.txt
+├── [-rw-r--r-- olieemka]  ohje.txt
+├── [-rw-r--r-- olieemka]  taso5.txt
+└── [-rw-r--r-- olieemka]  tempor.txt
+Taso 5 on toteutettu vajaasti. itkp1011.txt-tiedostossa on väärä sisältö.
+Taso 5 puuttuu kokonaan tai on toteutettu väärin
+Komentorivitehtäväsi on hyväksytty arvosanalla 3
+Muista lopettaa valmis tehtävä exit-komennolla! 
+
+539e09ffacb8387d3636bbc95e6d0f2bf03540c20130b08170f2d814851edf9889ebfa12d087570067c248861616ae774c33a409b6d57f73c513f5b53d57e6be
